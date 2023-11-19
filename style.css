@@ -1,0 +1,107 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(assets/images/tile.jpg);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.divForm{
+    display: flex;
+    justify-content: center;
+}
+
+
+form{
+    background-image: url(assets/images/formbg.jpg);
+    width: 100%;
+}
+
+
+.note{
+    height: 185px;
+    width: 150px;
+    background-image: url(assets/images/notebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonNote{
+    height: 15px;
+    font-size: 5px;
+    border: none;
+}
+
+
+form > div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-block-end: 10px;
+}
+
+
+.textNote{
+    word-wrap: break-word;
+    overflow-y: auto;
+    height: 80px;
+    display: flex;
+    width: 130px;
+    margin-left: 3px;
+    margin-block: 30px;
+}
+
+
+#containerNotes{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+
+.timeAndDate{ 
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+.note > .buttonNote{
+    height: 15px;
+    width: 10px;
+    float: right;
+    border: none;
+    position: absolute;
+    display: none;
+}
+
+
+.note:hover .buttonNote{
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    margin-block: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

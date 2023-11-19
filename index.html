@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my task bored - 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <section>
+      <header>
+        <h1>my Task Bored</h1>
+          </header>
+            <main>
+              <div class="divForm">
+                <form onsubmit="addNote()">
+            <div>  
+                <label>add Task</label>
+<br>
+                <textarea class="from-meshima" id="textForm" required></textarea>
+<br><br>
+                <label>add date</label>
+                <input type="date" id="dateInput" max="2022-01-01" required>
+<br><br>
+                <label>add time</label>
+                <input type="time" id="timeInput" required>
+<br><br>
+                <button type="submit" class="btn-submit">save</button>
+                <button type="reset" class="btn-clear">clear</button>
+                
+            </div>
+            </form>
+          </div>
+        <div id="containerNotes"></div>
+      </main>
+    </section>
+</body>
+</html>
